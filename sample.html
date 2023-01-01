@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+
+
+<html lang="en" dir="ltr">
+  <head>
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+::selection{
+  color: #000;
+  background: #fff;
+}
+nav{
+  position: fixed;
+  background-color: black;
+  width: 100%;
+  padding: 10px 0;
+  z-index: 12;
+}
+nav .menu{
+  max-width: 1250px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+
+}
+.menu .logo a{
+  text-decoration: none;
+  color: white;
+  font-size: 35px;
+  font-weight: 600;
+}
+.menu ul{
+  display: inline-flex;
+
+}
+.menu ul li{
+  list-style: none;
+  margin-left: 7px;
+
+
+}
+.menu ul li:first-child{
+  margin-left: 0px;
+
+}
+.menu ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  
+}
+.menu ul li a:hover{
+  color: gray;
+
+}
+.img{
+  background: url('photos/black.png')no-repeat;
+  width: 100%;
+  height: 190vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  opacity: 0.8;
+}
+.img::before{
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  
+}
+
+.center1{
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  padding: 0 20px;
+  text-align: center;
+  
+}
+.center1 .title1{
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #fcfcfc;
+    font-family: sans-serif;
+}
+
+.footer{
+    text-align: center;
+    margin-top: 20%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100%;
+    padding: 40px;
+    color: #fff;
+
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.socials a i{
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color .4s ease;
+}
+
+.socials a:hover i{
+    color: aqua;
+}
+
+@media (max-width:500px) {
+.footer-menu ul{
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  margin-top: 10%;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container (positioning is needed to position the close button and the text) */
+.container {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+
+</style>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+   </head>
+<body>
+<title>Erica Joyce</title>
+  <nav>
+    <div class="menu">
+      <div class="logo">
+        <a href="#">[EJ]</a>
+      </div>
+      <ul>
+        <li><a href="file:///C:/Users/PBP6945/Desktop/PROJECT%20FINAL/index.html">HOME</a></li>
+        <li><a href=""></a></li>
+        <li><a href="file:///C:/Users/PBP6945/Desktop/PROJECT%20FINAL/aboutpage.html">ABOUT</a></li>
+        <li><a href=""></a></li>
+        <li><a href="file:///C:/Users/PBP6945/Desktop/PROJECT%20FINAL/gallery.html">GALLERY</a></li>
+        <li><a href=""></a></li>
+        <li><a href="file:///C:/Users/PBP6945/Desktop/PROJECT%20FINAL/contact.html">CONTACT</a></li>
+        
+      </ul>
+
+    </div>
+
+  </nav>
+  
+  <div class="img">
+   <div class="center1">
+   <div class="title1">CLICK THE IMAGE TO SHOW:</div>
+   </div>
+
+<div class="row">
+  <div class="column">
+    <img src="photos/wedding.jpg" alt="Wedding" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="photos/bday.jpg" alt="Birthday" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="photos/fam.jpg" alt="Family" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="photos/baby.jpg" alt="Baby" onclick="myFunction(this);">
+  </div>
+</div>
+
+<!-- The expanding image container -->
+<div class="container">
+  <!-- Close the image -->
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+  <!-- Expanded image -->
+  <img id="expandedImg" style="width:100%">
+
+  <!-- Image text -->
+  <div id="imgtext"></div>
+</div>
+<script type="text/javascript">
+function myFunction(imgs) {
+  // Get the expanded image
+  var expandImg = document.getElementById("expandedImg");
+  // Get the image text
+  var imgText = document.getElementById("imgtext");
+  // Use the same src in the expanded image as the image being clicked on from the grid
+  expandImg.src = imgs.src;
+  // Use the value of the alt attribute of the clickable image as text inside the expanded image
+  imgText.innerHTML = imgs.alt;
+  // Show the container element (hidden with CSS)
+  expandImg.parentElement.style.display = "block";
+}
+</script>
+
+  
+</div>
+
+<div class="footer">
+
+<h3>[EJ] Studios</h3>
+<p>This website is with home page, about me page, gallery for the photos and my contact details page.
+<br> Hope you'll like it and hire me to capture and be part of your memorable moment!</p>
+
+<ul class="socials">
+    <li><a href="https://www.facebook.com/ejbulayan/"><img src="photos/fbb.png" width="50" height="40"></a></li>
+    <li><a href="https://www.instagram.com/ejbulayan_/"><img src="photos/ig.png" width="50" height="40"></a></li>
+    <li><a href="https://www.facebook.com/ejbulayan/"><img src="photos/fbb.png" width="50" height="40"></a></li>
+    <li><a href="https://www.instagram.com/ejbulayan_/"><img src="photos/ig.png" width="50" height="40"></a></li>
+    <li><a href="https://www.facebook.com/ejbulayan/"><img src="photos/fbb.png" width="50" height="40"></a></li>
+    <li><a href="https://www.instagram.com/ejbulayan_/"><img src="photos/ig.png" width="50" height="40"></a></li>
+ </ul>
+
+</div>
+</body>
+</html>
